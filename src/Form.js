@@ -1,7 +1,7 @@
-const Form = () => {
+const Form = ({ reqType, setReqType }) => {
   return (
     <div>
-
+      
     </div>
   )
 }
