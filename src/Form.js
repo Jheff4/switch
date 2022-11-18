@@ -1,8 +1,8 @@
 const Form = ({ reqType, setReqType }) => {
   return (
-    <div>
+    <form onSubmit={(e) => e.preventDefault()}>
       
-    </div>
+    </form>
   )
 }
 
