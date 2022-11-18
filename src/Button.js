@@ -4,7 +4,7 @@ const Button = ({ buttonText, reqType, setReqType }) => {
   return (
     <button
       className="button"
-      onClick={}
+      
     >
       {buttonText}
     </button>
