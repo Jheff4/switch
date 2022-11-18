@@ -1,8 +1,12 @@
-const Button = () => {
+import "./index.css";
+
+const Button = ({ reqType, setReqType }) => {
   return (
-    <div>
-      
-    </div>
+    <button
+      className="button"
+    >
+      {setReqType}
+    </button>
   )
 }
 
