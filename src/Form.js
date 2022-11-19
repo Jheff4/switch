@@ -8,17 +8,17 @@ const Form = ({ reqType, setReqType }) => {
       className="form"  
     >
       <Button 
-        buttonText="users"
+        buttonText="USERS"
         reqType={reqType}
         setReqType={setReqType}
       />
       <Button 
-        buttonText="posts"
+        buttonText="POSTS"
         reqType={reqType}
         setReqType={setReqType}
       />
       <Button 
-        buttonText="comments"
+        buttonText="COMMENTS"
         reqType={reqType}
         setReqType={setReqType}
       />
