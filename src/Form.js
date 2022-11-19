@@ -1,6 +1,5 @@
 import Button from "./Button"
 import "./index.css";
-import Result from "./Result";
 
 const Form = ({ reqType, setReqType }) => {
   return (
@@ -23,7 +22,7 @@ const Form = ({ reqType, setReqType }) => {
         reqType={reqType}
         setReqType={setReqType}
       />
-      <Result />
+      
     </form>
   )
 }
