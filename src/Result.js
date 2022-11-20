@@ -7,9 +7,6 @@ const Result = ({ items }) => {
       {items.map(item => (
         <ListItem key={item.id} item={item} />
       ))}
-      <li>
-         
-      </li> 
     </ul>
   )
 }
