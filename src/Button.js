@@ -7,7 +7,7 @@ const Button = ({ buttonText, reqType, setReqType }) => {
       type="button"
       onClick={() => setReqType(buttonText)}
     >
-      {buttonText}
+      
     </button>
   )
 }
